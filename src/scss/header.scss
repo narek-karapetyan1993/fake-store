@@ -1,0 +1,27 @@
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 300;
+  background-color: aquamarine;
+  padding: 10px 0;
+  font-family: Montserrat;
+  &-text {
+    flex: none;
+    padding: 0 1px;
+    font-size: 25px;
+    font-weight: 700;
+    color:  darkmagenta;
+  }
+  &-logo {
+    display: block;
+    margin-left: 10px;
+    width: 60px;
+    height: 50px;
+    flex: none;
+  }
+}
